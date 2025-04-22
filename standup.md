@@ -2,46 +2,55 @@
 
 ## Meeting Overview
 - **Date & Time:** [Insert Date and Time]
-- **Type of Meeting:** [E.g., Updates, modifications, issues]
+- *Meeting Type:* [E.g., Updates, modifications, issues]
   
----
+----------------------------------
 
-## Participants
+## Attendees
 
 | Name               | Present (Y/N)  |
 |--------------------|----------------|
-| [Participant 1]    | Y              |
-| [Participant 2]    | N              |
-| [Participant 3]    | Y              |
+| [Attendee 1]       | Y              |
+| [Attendee 2]       | N              |
+| [Attendee 3]       | Y              |
 
----
+----------------------------------
 
 ## Updates
 
-| Topic                     | Details                                        |
-|---------------------------|------------------------------------------------|
-| **Changes since last meeting** | [Briefly highlight progress points]       |
-| **Issues or Challenges**    | [Take notes or issues and obstacles.]        |
+| New Updates / Changes                     | Details                                   |
+|-------------------------------------------|-------------------------------------------|
+| **Changes since last meeting**            | [Briefly highlight progress points]       |
+| **Issues or Challenges**                  | [Take notes or issues and obstacles.]     |
 | **Needs to be completed by next meeting** | [For example, nav bar, css changes, etc.] |
 
----
+----------------------------------
 
 ## Important Topics
 
 | Topic                     | Description or Results                         |
 |---------------------------|------------------------------------------------|
-| [Topic 1]                 | [Decision or outcome of topic]                 |
-| [Topic 2]                 | [Decision or outcome of topic]                 |
+| [Topic 1]                 | [What happened during discussion?]             |
+| [Topic 2]                 | [What happened during discussion?]             |
 
----
+----------------------------------
 
-## Assigning Tasks
+## Needs to get done by next sprint
+
+| Task                     | About the task                  |
+|--------------------------|---------------------------------|
+| [Task 1]                 | [Desc. of the task]             |
+| [Task 2]                 | [Desc. of the task]             |
+
+----------------------------------
+
+## Tasks
 
 - [ ] [Task 1] (Assigned to [...])
 - [ ] [Task 2] (Assigned to [...])
 - [ ] [Task 3] (Assigned to [...])
 
----
+----------------------------------
 
 ## Notes
 
