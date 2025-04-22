@@ -1,5 +1,5 @@
 # Standup Meeting Notes
-
+----------------------------------
 ## Meeting Overview
 - **Date & Time:** [Insert Date and Time]
 - *Meeting Type:* [E.g., Updates, modifications, issues]
