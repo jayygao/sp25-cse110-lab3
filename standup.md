@@ -17,8 +17,11 @@
 ----------------------------------
 
 ## Updates
-
-| **Needs to be completed by next meeting** | [For example, nav bar, css changes, etc.] |
+ 
+| Updates or Changes        | Description                                |
+|---------------------------|--------------------------------------------|
+| [Update 1]                | [What was changed or updated?]             |
+| [Update 2]                | [What was changed or updated?]             |
 
 ----------------------------------
 
@@ -50,4 +53,4 @@
 
 ## Notes
 
-- [Additional comments or thoughts, last minute ideas or things needed to be brought up]
+- [Extra comments, something that wasn't talked about or needs attention]
