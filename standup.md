@@ -18,10 +18,6 @@
 
 ## Updates
 
-| New Updates / Changes                     | Details                                   |
-|-------------------------------------------|-------------------------------------------|
-| **Changes since last meeting**            | [Briefly highlight progress points]       |
-| **Issues or Challenges**                  | [Take notes or issues and obstacles.]     |
 | **Needs to be completed by next meeting** | [For example, nav bar, css changes, etc.] |
 
 ----------------------------------
