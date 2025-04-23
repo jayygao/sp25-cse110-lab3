@@ -2,20 +2,21 @@
 <html lang="en">
   <head>
     <title>Project Lebron Development</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <header id="main-header">
         <h1 class="title">Project Lebron 2025</h1>
 
-        <h2 class="topic">Topic: How to raise your project Lebron</h2>
+        <h2 class="topic">Topic: How to raise your project <b>Lebron</b></h2>
 
         <p class="date"><strong>Date: </strong> April 13th, 2025</p>
 
-        <nav id="nav">
-            <p><a href="#missed">Skip to Previous Topics & New Ones</a></p>
-        </nav>
+        <div class="nav2">
+            <button onclick="location.href='#missed'">Skip to Previous Topics & New Ones</button>
+        </div>
 
-        <img class="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkdJ81HXFh4afWYQHtxHAXp2f6lKU-Z3-kWVTS1_Qlp-E3I3CJbBQP4DTZTtPr9EgsB0&usqp=CAU" alt="glorious" width="200" />
+        <img class="lebon-start" src="https://lens-storage.storage.googleapis.com/png/95fa72ab7c4d432f86e283588da25341" alt="glorious" />
 
     </header>
     
@@ -33,14 +34,15 @@
         <hr/>
 
         <section id="agenda">
-            <h2>Today's Agenda: </h2>
-            <ol>
+            <h2>Today's Agenda</h2>
+            <div class="insideAgenda">
+              <ol>
                 <li>The environment you will raise your project in.</li>
                 <li>How to setup your house to replicate lebron's childhood.</li>
                 <li>How to raise your project to be 6'3 + and be a basketball weapon.</li>
-            </ol>
-
-            <img class="agenda-img" src="https://preview.redd.it/cprl0on04v751.jpg?auto=webp&s=ce56647ac2fb12c44e1a48065e697aa2979d806b" alt="house with no windows" width="300" />
+              </ol>
+              <img class="agenda-img" src="https://preview.redd.it/cprl0on04v751.jpg?auto=webp&s=ce56647ac2fb12c44e1a48065e697aa2979d806b" alt="house with no windows" width="300" />
+            </div>
             <p><b>About Image: </b>House with no windows to keep your project from interacting with outside world, build your house like this, to be updated.</p>
         </section>
 
@@ -49,14 +51,18 @@
         <section id="missed">
             <h2>Previous meeting notes and new meeting notes</h2>
 
-            <h3>Unfinished Business</h3>
-            <ul>
-                <li>What to do if your project doesn't like basketball.</li>
-                <li>How to <b>gaslight</b> your project into playing basketball.</li>
-                <li>Which children's basketball hoop to buy.</li>
-            </ul>
-
-            <img class="kid-bron-img" src="https://www.si.com/.image/t_share/MTY4MTI4MDkzODc0MTAzNTY5/lebron-james-childhood-christmas-basketballjpg.jpg" alt="kid bron" width="300" />
+            <div class="unfinished">
+              <div class="deetsUnf">
+                <h3>Unfinished Business</h3>
+                <ul>
+                    <li>What to do if your project doesn't like basketball.</li>
+                    <li>How to <b>gaslight</b> your project into playing basketball.</li>
+                    <li>Which children's basketball hoop to buy.</li>
+                </ul>
+              </div>
+  
+              <img class="kid-bron-img" src="https://www.si.com/.image/t_share/MTY4MTI4MDkzODc0MTAzNTY5/lebron-james-childhood-christmas-basketballjpg.jpg" alt="kid bron" width="300" />
+            </div>
             <p><b>About Image: </b>Example of Lebron's early childhood training, we want to replicate this.</p>
 
             <h3>New Topics</h3>
@@ -119,7 +125,7 @@
                   <legend>Post Meeting Survey</legend>
               
                   <label for="name">Name:</label>
-                  <input type="text" id="name" name="name" /><br/><br/>
+                  <input type="text" id="name" name="name" /><br/>
               
                   <p>Did you like the meeting?</p>
                   <input type="radio" id="yes" name="enjoy" value="yes" />
@@ -128,7 +134,7 @@
                   <label for="no">No, I'm evil.</label><br/><br/>
               
                   <label for="notes">Notes for next meeting:</label><br/>
-                  <textarea id="notes" name="notes" rows="4" cols="40"></textarea><br/><br/>
+                  <textarea id="notes" name="notes" rows="4" cols="40"></textarea><br/>
               
                   <label>
                     <input type="checkbox" name="canAttend" />
@@ -145,7 +151,7 @@
                   <label for="date">Preferred date:</label>
                   <input type="date" id="date" name="date" /><br/><br/>
               
-                  <label for="member">Favorite member of the Lebron family?</label>
+                  <label for="member">Favorite member of the Lebron family?</label></br>
                   <input list="memberOption" id="member" name="member" />
                   <datalist id="memberOptions">
                     <option value="Glorious Lebron bron"></option>

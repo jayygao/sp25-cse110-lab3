@@ -1,0 +1,107 @@
+body {
+    background-color: #FDB927;
+}
+
+#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topic b {
+    color: #ff7722;
+}
+
+.nav2 button{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 1cm;
+    border-width: 0.3mm;
+    border-color: black;
+    border-style: solid;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    transition: 0.3s all ease-in-out;
+    background-color: white;
+}
+
+.nav2 button:hover {
+    background-color: rgb(223, 222, 222);
+    color: hsl(0, 88%, 65%);
+}
+
+.lebon-start {
+    margin-top: 1em;
+    max-width: 25vh;
+    max-height: auto;
+    transition: 3s all ease-in-out;
+}
+
+.lebon-start:hover {
+    transform: rotate(360deg);
+    opacity: 0;
+}
+
+#attendance {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#agenda h2 {
+    align-items: center;
+    text-align: center;
+}
+
+#agenda p {
+    align-items: center;
+    text-align: center;
+}
+
+#agenda b {
+    color: rgb(21, 11, 112);
+}
+
+.insideAgenda {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideAgenda ol {
+    margin: 4rem;
+}
+
+#aboutHouse {
+    align-items: center;
+    justify-content: center;
+}
+
+#missed h2 {
+    text-align: center;
+}
+
+#missed p {
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+.unfinished {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.deetsUnf {
+    margin-right: 2vw;
+    margin-bottom: 3rem;
+}
+
+.deetsUnf b {
+    color: red;
+}
+
+
