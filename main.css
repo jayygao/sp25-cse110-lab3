@@ -7,7 +7,7 @@
 }
 
 .title2 {
-    color: color-mix(in lab, #552583 85%, #FDB927);
+    color: color-mix(in lab, #552583 85%, #FDB927); /*Taken from Mozilla, but not valid?*/
 }
 
 h1.title2 {
@@ -139,7 +139,7 @@ body {
 }
 
 #aboutBot b {
-    color: color(display-p3 0.47 0.32 0.66);
+    color: color(display-p3 0.47 0.32 0.66); /*Taken from Mozilla, but not valid?*/
 }
 
 .unfinished {
