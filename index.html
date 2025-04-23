@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Project Lebron Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titleProj">Project Lebron Development</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <header id="main-header">
-        <h1 class="title">Project Lebron 2025</h1>
+        <h1 class="title2">Project Lebron 2025</h1>
 
         <h2 class="topic">Topic: How to raise your project <b>Lebron</b></h2>
 
@@ -22,13 +26,15 @@
     
     <main id="main-content">
         <section id="attendance">
-            <h3>Attendance Sheet: </h3>
-            <ul>
-                <li>Anthony Edwards</li>
-                <li>Lavar Ball</li>
-                <li>FlightReacts</li>
-                <li>Draymond Green</li>
-            </ul>
+            <span class="attend-title"><strong>Attendance Sheet:</strong></span>
+            <span>
+              <ul class="attend-list">
+                  <li>- Anthony Edwards</li>
+                  <li>- Lavar Ball</li>
+                  <li>- FlightReacts</li>
+                  <li>- Draymond Green</li>
+              </ul>
+            </span>
         </section>
 
         <hr/>
@@ -42,6 +48,7 @@
                 <li>How to raise your project to be 6'3 + and be a basketball weapon.</li>
               </ol>
               <img class="agenda-img" src="https://preview.redd.it/cprl0on04v751.jpg?auto=webp&s=ce56647ac2fb12c44e1a48065e697aa2979d806b" alt="house with no windows" width="300" />
+              <p>This image is very important, this is what will skyrocket your project success rate.</p>
             </div>
             <p><b>About Image: </b>House with no windows to keep your project from interacting with outside world, build your house like this, to be updated.</p>
         </section>
@@ -63,29 +70,35 @@
   
               <img class="kid-bron-img" src="https://www.si.com/.image/t_share/MTY4MTI4MDkzODc0MTAzNTY5/lebron-james-childhood-christmas-basketballjpg.jpg" alt="kid bron" width="300" />
             </div>
-            <p><b>About Image: </b>Example of Lebron's early childhood training, we want to replicate this.</p>
-
-            <h3>New Topics</h3>
-            <ul>
-                <li>How to develop <b>aura</b> for your project as they grow.</li>
-                <li>How to raise funds for project Lebron.</li>
-                <li>Backup to project Lebron; project Messi.</li>
-                <li>When to start training project Lebron.</li>
-            </ul>
-
-            <img class="aura-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOXj__hSNy_Tn8EOQ6WdmkqdcALa5jH3iGxg&s" alt="aura" width="300"/>
+            <p id="aboutBot"><b>About Image: </b>Example of Lebron's early childhood training, we want to replicate this.</p>
+            <hr/>
+            <div class="newTop">
+              <div class="texTop">
+              <h3>New Topics</h3>
+                <ul>
+                    <li>How to develop <b>aura</b> for your project as they grow.</li>
+                    <li>How to raise funds for project Lebron.</li>
+                    <li>Backup to project Lebron; project Messi.</li>
+                    <li>When to start training project Lebron.</li>
+                </ul>
+              </div>
+              <img class="aura-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOXj__hSNy_Tn8EOQ6WdmkqdcALa5jH3iGxg&s" alt="aura" width="300"/>
+            </div>
         </section>
 
         <hr/>
 
         <section id="comments">
             <h2>Any Questions, Comments, or Concerns?</h2>
-            <p><em>Lavar: </em> Why Project <b>Lebron</b>? Why not Jordan?</p>
-            <p><em>FlightReacts: </em> What if the project doesn't grow to Lebron's height? I recommend Project Curry.</p>
+            <p><b><em>About Image: </em></b><b>Why Lebron? This should suffice.</b></p>
+            <div class="peopleComments">
+              <p><em>Lavar: </em> Why Project <b>Lebron</b>? Why not Jordan?</p>
+              <p><em>FlightReacts: </em> What if the project doesn't grow to Lebron's height? I recommend Project Curry.</p>
+              <p><em>Anthony Edwards: </em> I hate my kid.</p>
+            </div>
+            
 
             <img class="why-lebron-img" src="https://miro.medium.com/v2/resize:fit:1400/1*iJ4kQY9_frUb1lTFfpIVwQ.png" alt="score" width="300" />
-
-            <p><b><em>About Image: </em></b><b>Why Lebron? This should suffice.</b></p>
         </section>
 
         <hr/>
@@ -125,7 +138,7 @@
                   <legend>Post Meeting Survey</legend>
               
                   <label for="name">Name:</label>
-                  <input type="text" id="name" name="name" /><br/>
+                  <input type="text" id="name" name="name" /><br/><br/>
               
                   <p>Did you like the meeting?</p>
                   <input type="radio" id="yes" name="enjoy" value="yes" />
