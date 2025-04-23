@@ -1,17 +1,13 @@
 * {
-    display: flexbox;
+    font-family: "Montserrat", sans-serif;
 }
 
 :root {
     --blood: #7c0b0b; /*CSS Variable Fall Back with color, from Mozilla*/
 }
 
-#main-content {
-    display: flexbox;
-}
-
 .title2 {
-    color: color-mix(in srgb, #552583 85%, #FDB927);
+    color: color-mix(in lab, #552583 85%, #FDB927);
 }
 
 h1.title2 {
@@ -20,7 +16,6 @@ h1.title2 {
 
 body {
     background-color: #FDB927;
-    font-family: "Montserrat", sans-serif;
 }
 
 #main-header {
@@ -56,7 +51,7 @@ body {
 .lebon-start {
     margin-top: 1em;
     max-width: 25vh;
-    max-height: auto;
+    max-height: 100%;
     transition: 3s transform ease-in-out, 3s opacity ease-in-out;
     width: 200px;
     height: auto;
@@ -144,7 +139,7 @@ body {
 }
 
 #aboutBot b {
-    color: color(srgb 0.47 0.32 0.66);
+    color: color(display-p3 0.47 0.32 0.66);
 }
 
 .unfinished {
